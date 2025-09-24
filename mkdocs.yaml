@@ -1,0 +1,14 @@
+site_name: 'python-app-40'
+site_description: 'Main documentation for the python-app-40'
+repo_url: https://github.com/Portfolio-jaime/python-app-40
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+nav:
+  - Overview:
+      - Introducción y API: 'docs/index.md'
+      - Arquitectura: 'docs/arquitectura.md'
+      - CI/CD y GitOps: 'docs/cicd.md'
+      - Casos de Uso y Pruebas: 'docs/uso.md'

@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-40
+  description: test
+  annotations:
+    github.com/project-slug: Portfolio-jaime/python-app-40
+    backstage.io/techdocs-ref: dir:.
+    argocd/app-name: python-app-40
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
